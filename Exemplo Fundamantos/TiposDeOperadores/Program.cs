@@ -33,10 +33,16 @@ Console.WriteLine(d.ToString("F2"));
 /**************************************************************************************************/
 
 int valor1 = Convert.ToInt32(null);
-int valor2 = int.Parse(null);
+int valor2 = int.Parse(null); //Console.WriteLine(valor2); // A classe Parse não aceita valores nulos
 
 Console.WriteLine(valor1);
-//Console.WriteLine(valor2); // A classe Parse não aceita valores nulos
+
+/**************************************************************************************************/
+
+int valorInicial = 40;
+string novoValor = valorInicial.ToString();
+
+Console.WriteLine(novoValor);
 
 
 
